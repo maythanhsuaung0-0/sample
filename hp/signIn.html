@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="signIn.css">
+</head>
+<script>
+    let getData = document.getElementById("loginForm")
+    getData.addEventListener("submit", (e) => {
+    e.preventDefault();
+    let username = document.getElementById("username");
+    let password = document.getElementById("password");
+     console.log(username)
+}); 
+</script>
+<body>
+    <div class="card">
+        <form action="hp.html" method="post" id="loginForm">
+            <label for="username">Username</label>
+            <input type="text" placeholder="username" id="username"> <br>
+            <label for="password">Password</label>
+            <input type="text" placeholder="password" id="password"> <br>
+            <button type="submit">Sign In</button>
+        </form>
+    </div>
+</body>
+</html>

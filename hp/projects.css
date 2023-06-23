@@ -1,0 +1,25 @@
+.container{
+    width: 70%;
+    margin: 0 auto;
+}
+table{
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid grey;
+    border-collapse: collapse;
+}
+th,td{
+    text-align: left;
+    padding: 10px;
+    border: 1px solid grey;
+}
+button{
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: rgb(46, 153, 248) ;
+    border: none;
+    display: block;
+    margin-left: auto;
+    margin-top: 10px;
+    font-weight: bold;
+}
